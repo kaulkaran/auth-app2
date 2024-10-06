@@ -1,0 +1,71 @@
+/* RegisterForm.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4b0082; /* Dark purple background */
+}
+
+.register-container {
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    color: #ffffff; /* White color for the heading */
+    margin-bottom: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff; /* White background for input fields */
+    color: #333; /* Dark text color for inputs */
+    font-size: 16px;
+}
+
+.input-field:focus {
+    outline: none;
+    border: 2px solid #4b0082; /* Dark purple border on focus */
+}
+
+.register-button {
+    padding: 10px;
+    background-color: #6a0dad; /* Purple button background */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-button:hover {
+    background-color: #4b0082; /* Darker purple on hover */
+}
+
+.link {
+    color: #ffffff; /* White color for links */
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
